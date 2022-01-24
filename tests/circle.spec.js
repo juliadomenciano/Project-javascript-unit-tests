@@ -22,8 +22,8 @@ const circle = require('../src/circle');
 
   OBS: Lembre-se que você não precisa se preocupar com o describe e o it por enquanto, isso será aprendido posteriormente.
 */
-const size = Object.keys(circle(3)).length
-const area = parseFloat((circle(3).area).toFixed(2))
+const size = Object.keys(circle(3)).length;
+const area = parseFloat((circle(3).area).toFixed(2));
 const obj = (Object.values(circle(3)));
 const values = obj.forEach((item, index, arr) => {
   arr[index] = (item.toFixed(2)).toString();
